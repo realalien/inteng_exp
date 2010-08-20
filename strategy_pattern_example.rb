@@ -1,4 +1,4 @@
-class Context
+class Person.new(500, 100, TryEatLessAtLunchStrategy)
   def initialize(strategy)
     self.class.send :include, strategy
   end
